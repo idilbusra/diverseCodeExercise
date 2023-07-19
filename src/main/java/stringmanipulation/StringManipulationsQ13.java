@@ -6,4 +6,11 @@ public class StringManipulationsQ13 {
     Password must have at least 9 characters different from space character.
     Password must have at least 3 symbol.
      */
+    public static void main(String[] args) {
+
+        String password = "123654789BSR!!!";
+        Boolean atLeastNineCharacters = password.replaceAll("\\s","").length()>8;
+        Boolean atLeastThreeSymbols = password.replaceAll("\\s","").replaceAll("[A-Za-z0-9]","").length()>2;
+        System.out.println("Is the password valid? " + (atLeastNineCharacters && atLeastThreeSymbols));
+    }
 }
