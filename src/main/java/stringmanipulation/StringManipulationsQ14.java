@@ -7,5 +7,12 @@ public class StringManipulationsQ14 {
         is out of scope
   */
 
+        String nameFirst = "Busra Idil";
+        String initializeOfFirstName = nameFirst.substring(0,1);
+        int indexOfInitializeOfLastName = nameFirst.indexOf(" ") + 1;
+        String initializeOfLastName = nameFirst.substring(indexOfInitializeOfLastName, indexOfInitializeOfLastName +1);
+        System.out.println(initializeOfFirstName + initializeOfLastName);
+
+
     }
 }
