@@ -8,5 +8,17 @@ public class LoopsQ5 {
     * * *
     * * * *
      */
+    public static void main(String[] args) {
+        int lines = 4;
+        for(Integer j = 1; j<= lines; j++){
 
+            String str = "";
+
+            for(Integer k=1; k<=j; k++){
+
+                str = str + "A ";
+            }
+            System.out.println(str);
+        }
+    }
 }
