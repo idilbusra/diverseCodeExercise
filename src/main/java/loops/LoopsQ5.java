@@ -16,7 +16,7 @@ public class LoopsQ5 {
 
             for(Integer k=1; k<=j; k++){
 
-                str = str + "A ";
+                str = str + "* ";
             }
             System.out.println(str);
         }
