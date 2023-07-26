@@ -9,7 +9,7 @@ public class LoopsQ6 {
         String str = "";
         for(Integer i=50; i>2; i--){
             if(i%2==0){
-                str = str + i + " ";
+                str = str + i + " + Six";
             }
         }
         System.out.println(str);
